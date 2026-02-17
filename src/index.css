@@ -1,0 +1,14 @@
+.app{
+    background:  #c9fdd7;
+    max-width: 600px;
+    margin:35px auto;
+    border-radius: 16px;
+    padding: 30px;
+}
+body{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    width:85%;
+
+}
