@@ -6,9 +6,53 @@
     padding: 30px;
 }
 body{
-    background-color: white;
-    border: none;
-    border-radius: 10px;
-    width:85%;
+    background-color:white;
+    font-family: "Roboto",sans-serif;
 
+
+}
+
+.search-form-input{
+    
+    border: none;
+    border-radius: 15px;
+    width:80%;
+    padding:20px 25px;
+    font-size: 16px;
+    
+
+}
+
+.search-button{
+    background:green;
+    padding:16px;
+    font-size: 15px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border-radius: 15px;
+    border:none;
+    color: aliceblue;
+
+
+}
+.app-data{
+    justify-content: space-between;
+
+}
+.app-temperature{
+    display:flex;
+    font-size: 60px;
+    margin-left: 20px 0 auto
+}
+footer{
+    border-top: 40px;
+    padding: 30px 0 0;
+    
+
+}
+main{
+    padding: 60px 0;
+}
+a{
+    color: green;
 }

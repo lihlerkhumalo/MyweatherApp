@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios@1.13.2/dist/axios.min.js"></script>
     <link rel="stylesheet"href ="src/index.css">
     <title>My weather App</title>
 </head>
@@ -10,27 +11,32 @@
 
 <div class = "app">
      <header>
-    <form><input type ="search" palceholder="Enter a city.....">
-    <input type ="submit" value = "search"></form>
+    <form id = "search-form">
+     <input type ="search"palceholder="Enter a city....."class="search-form-input">
+    <input type ="submit" value = "search" class ="search-button"></form>
 
     </header>
 <main>
-        <div>
-        <h1>Paris</h1>
-        <p>Tuesaday 15:22 , scattered clouds </br>
+        <div class = "app-data">
+        <h1 class ="app-city" id ="city">Paris</h1>
+        <p class=" app-details">Tuesday 15:22 , scattered clouds </br>
             Humidity:<strong>68%</strong>,Wind:<strong>3.13km/h</strong>
         </p>
         </div>
-<div>
+<div class="app-temperature">
     🌥️12°C
 </div>
-    
+     
 </main>
-   <footer>This project was coded by Langelihle Khumalo on <a href="https://github.com/lihlerkhumalo/MyweatherApp"></a> 
-    and is hosted on 
-    <a href ="https://lihlee.netlify.app/"></a>
+<footer>
+  This project was coded by <a href="https://www.instagram.com/lihlerkhumalo">Langelihle Khumalo  </a> on
+  <a href="https://github.com/lihlerkhumalo/MyweatherApp">GitHub</a>
+  and is hosted on 
+  <a href="https://lihlee.netlify.app/">Netlify</a>.
+</footer>
+ </footer>
+ <script src="src/index.js"></script>
    </div>
-   </footer>
  </div>
 </body>
 </html>
