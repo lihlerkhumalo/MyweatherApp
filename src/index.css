@@ -56,3 +56,10 @@ main{
 a{
     color: green;
 }
+.app-details{
+    font-size: 20px;
+    
+}
+p strong{
+    color:green;
+}

@@ -17,7 +17,6 @@ function updateWeather(response) {
 function searchCity(city) {
   let apiKey = "de006o7c70fb22fbbf301edt429533ae";
   let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}`;
-  let url =`let url = "https://jsonplaceholder.typicode.com/users/1`
   axios.get(apiUrl).then(updateWeather);
 }
 
