@@ -30,8 +30,8 @@ body{
     margin-left: 5px;
     border-radius: 10px;
     border-radius: 15px;
-    border:none;
-    color: aliceblue;
+    border:1px solid black;
+    color:lightgreen;
 
 
 }
@@ -47,7 +47,7 @@ body{
 footer{
     border-top: 40px;
     padding: 30px 0 0;
-    
+    text-align: center;
 
 }
 main{

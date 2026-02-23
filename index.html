@@ -8,33 +8,38 @@
     <title>My weather App</title>
 </head>
 <body>
-
-<div class = "app">
-     <header>
-<form id = "search-form">
-     <input type ="search"plaeholder="Enter a city....."class="search-form-input" id ="search-form-input">
-    <input type ="submit" value = "search" class ="search-button" id ="submit-form">
-</form>
-
+<div class="app">
+    <header>
+        <form id="search-form">
+            <input type="search" placeholder="Enter a city....." class="search-form-input" id="search-input">
+            <input type="submit" value="Search" class="search-button" id="submit-form">
+        </form>
     </header>
-<main>
-        <div class = "app-data">
-        <h1 class ="app-city" id ="city">Paris</h1>
-        <p class=" app-details"><span id="description">Tuesday 15:22 , scattered clouds</span></br>
-         <span id ="humidity">  Humidity:<strong></strong></span> <span id = "wind-speed">Wind:</strong></span>
-        </p>
+
+    <main>
+        <div class="app-data">
+            <h1 class="app-city" id="city">PARIS</h1>
+            <p class="app-details">
+                <span id="current-date">Tuesday</span><span id ="time" ></span>,
+                <span id="description">scattered clouds</span><br>
+               Humidity : <strong> <span id="humidity">45%</span></strong>,
+               Wind : <strong><span id="wind-speed">60km/h</span></strong>
+            </p>
         </div>
-<div class="app-temperature" id= "temperatureInfo"> <span>🌥️</span>12°C</div>
+        <div class="app-temperature" id="temperature">
+            <span id ="icon">🌥️</span> <span id="current-temperature">12°C</span>
+        </div>
 
      
-</main>
+
 <footer>
   This project was coded by <a href="https://www.instagram.com/lihlerkhumalo">Langelihle Khumalo  </a> on
   <a href="https://github.com/lihlerkhumalo/MyweatherApp">GitHub</a>
   and is hosted on 
   <a href="https://lihlee.netlify.app/">Netlify</a>.
 </footer>
- </footer>
+</main>
+</div>
  <script src="src/index.js"></script>
    </div>
  </div>
